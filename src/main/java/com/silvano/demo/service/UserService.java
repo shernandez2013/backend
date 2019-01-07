@@ -21,4 +21,12 @@ public interface UserService {
 	 */
 	List<User> findAll();
 
+	/**
+	 * delete user from data base
+	 * 
+	 * @param user
+	 *            void
+	 */
+	void delete(User user);
+
 }
